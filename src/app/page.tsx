@@ -1,5 +1,5 @@
-import { LifeDashboard } from "@/components/life-dashboard";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return <LifeDashboard mode="demo" />;
+  redirect("/db");
 }
